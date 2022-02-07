@@ -2,13 +2,13 @@
 
 **Licensed under Creative Commons Attribution-ShareAlike 4.0 International Public License.**  
 _Please see [License.md](./LICENSE.md "License") for details._  
-<img src="./assets/cc.svg" alt="Creative Commons" width="30"/>
-<img src="./assets/by.svg" alt="Attribution" width="30"/>
-<img src="./assets/sa.svg" alt="Share Alike" width="30"/>
+<img src="./readme/cc.svg" alt="Creative Commons" width="30"/>
+<img src="./readme/by.svg" alt="Attribution" width="30"/>
+<img src="./readme/sa.svg" alt="Share Alike" width="30"/>
 
 ---
 
-> If you use this template, please let me know on [Twitter @LimnDigital](https://twitter.com/limndigital) and you can also add your fx(hash) GAP to the [Show and tell](https://github.com/limndigital/fxhash-no-code-gap-template/discussions/categories/show-and-tell) section of this repo!
+> 🔥 If you use this template, please let me know on [Twitter @LimnDigital](https://twitter.com/limndigital) and you can also add your fx(hash) GAP to the [Show and tell](https://github.com/limndigital/fxhash-no-code-gap-template/discussions/categories/show-and-tell) section of this repo!
 
 ---
 
@@ -20,9 +20,10 @@ This is the absolute simplest template to create a GAP\* on [fx(hash)](https://f
 2. Create as many _"Trait Images"_ in each Layer as you want.
 3. Change the Title, Artist Name, Layer Count, Trait Count in the `settings.js` file.
 4. Test with a local server _(instructions below)_ to make sure everything works.
-5. ZIP _(compress)_ the all the files & folders **INSIDE** the Project folder.
-6. Upload the .ZIP file to the **fx(hash) Sandbox** for testing.
-7. Pubilsh your new **GAP** on fx(hash)! _([step-by-step instructions in the Discussions](https://github.com/limndigital/fxhash-no-code-gap-template/discussions/1))_
+5. **IMPORTANT:** You can delete the `readme` folder and this `README.md` file to save space in your final ZIP. All the other files and folders you **NEED TO KEEP** for your GAP to work correctly.
+6. ZIP _(compress)_ all the files & folders **INSIDE** the Project folder. _(NOT the Project folder itself)_
+7. Upload the .ZIP file to the **fx(hash) Sandbox** for testing.
+8. Pubilsh your new **GAP** on fx(hash)! _([step-by-step instructions in the Discussions](https://github.com/limndigital/fxhash-no-code-gap-template/discussions/1))_
 
 ### 🔥 NOT A SINGLE LINE OF CODE NEEDED! 🔥
 
@@ -38,6 +39,8 @@ A GAP _can_ be a PfP _(Profile Pic)_. But it doesn't have to be. The image layer
 
 By broadly labeling these templates as just a _PfP_ dramatically limits their use and understanding by Artists who may have little or no programming skills.
 
+---
+
 # Let's dive in!
 
 ## Requirements
@@ -47,7 +50,7 @@ By broadly labeling these templates as just a _PfP_ dramatically limits their us
 
 ## GAP Setup
 
-![Download Repo](./assets/downloadzip.jpg "Download Repo")
+![Download Repo](./readme/downloadzip.jpg "Download Repo")
 
 1. Click the "Code" button above and select "Download ZIP".
    1. That will download a file named `fxhash-no-code-gap-template-main.zip`
@@ -61,7 +64,7 @@ By broadly labeling these templates as just a _PfP_ dramatically limits their us
    2. This will open your new GAP in VSC. You always NEED to open the Folder, NOT just a file.
 6. Your VSC sidebar should look like this:
 
-![VSC Sidebar](./assets/vsc1.jpg "VSC Sidebar")
+![VSC Sidebar](./readme/vsc1.jpg "VSC Sidebar")
 
 7. Now we're going to install a **Web Server** right inside VSC!
 8. Click the **"Extensions"** tab and the _File Explorer_ will be replaced with the _Extensions_ viewer. Here you can install Extensions to extend the functionality of VSC.
@@ -69,15 +72,15 @@ By broadly labeling these templates as just a _PfP_ dramatically limits their us
    1. Yours will have an _"Install"_ button like all the other extensions. Click Install.
    2. Details about the Live Server extension: https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
 
-![VSC Extensions](./assets/vsc2.jpg "VSC Extensions")
+![VSC Extensions](./readme/vsc2.jpg "VSC Extensions")
 
 10 When completed, you should have a "**Go Live**" button in VSC's bottom menu bar on the right.
 
-![VSC Go Live Server](./assets/vsc3.jpg "VSC Sidebar")
+![VSC Go Live Server](./readme/vsc3.jpg "VSC Sidebar")
 
 1.  Click "**Go Live**" and if you've followed the instructions, your default browser will open to display this demo GAP Artworks:
 
-![VSC Sidebar](./assets/vsc4.jpg "VSC Sidebar")
+![VSC Sidebar](./readme/vsc4.jpg "VSC Sidebar")
 
 12. If you refresh your Browser, a new GAP will be created, just like on fx(hash).
 13. If you update the values in the `settings.js` file and save them, your Browser will automatically refresh.
@@ -122,18 +125,18 @@ When you are done creating and testing all your Artwork, and everything seems to
    1. Select all the files and folders _(On Mac just press "CMD + A" then right click on any file and select "Compress" from the contextual menu)_
    2. This will create a file named _"Archive.zip"_.
 
-![Select all files and folders to ZIP](./assets/vsc5.jpg "Select all files and folders to ZIP")
+![Select all files and folders to ZIP](./readme/vsc5.jpg "Select all files and folders to ZIP")
 
 2. **CHECK THE ZIP FILE SIZE! It need to be less than 15MB.** If it's not you have to either compress your images more, or use fewer images.
 3. Head to the fx(hash) Sandbox: https://www.fxhash.xyz/sandbox
 4. Drag-n-Drop your _"Archive.zip"_ to the black box and click "start tests".
 
-![![VSC Sidebar](./assets/vsc4.jpg "VSC Sidebar")
-](./assets/vsc6.jpg "Check Archive.zip size")
+![![VSC Sidebar](./readme/vsc4.jpg "VSC Sidebar")
+](./readme/vsc6.jpg "Check Archive.zip size")
 
 Your GAP should display your Artworks, change each time you click the _"new hash"_ button and should NOT change when you click the _"retry with same hash"_ button.
 
-![fxhash Sandbox](./assets/vsc7.jpg "fxhash Sandbox")
+![fxhash Sandbox](./readme/vsc7.jpg "fxhash Sandbox")
 
 # Publish your token
 
@@ -144,7 +147,7 @@ Click your Avatar in the top right and select _"mint generative token"_ and go t
 I've created a _"How To"_ article in the _"Discussion"_ of this repo. It goes through each step with screenshots and can be found here:  
 https://github.com/limndigital/fxhash-no-code-gap-template/discussions/1
 
-![How To Publish your GAP](./assets/howto.jpg "How To Publish your GAP")
+![How To Publish your GAP](./readme/howto.jpg "How To Publish your GAP")
 
 ---
 
@@ -168,14 +171,3 @@ This is how Generative Tokens work on fxhash:
 - the token will now have its own `index.html` file, with a **static** hash, ensuring its immutability
 
 The [Guide to mint a Generative Token](https://fxhash.xyz/articles/guide-mint-generative-token) give in-depth details about this process.
-
-# Rules to follow
-
-> Theses rules must be followed to ensure that your token will be future-proof, accepted by fxhash, and behave in the intended way
-
-- the zip file must be under 15 Mb
-- any path to a resource must be relative (./path/to/file.ext)
-- no external resources allowed, you must put all your resources in the `public/` folder (sub-folders are OK)
-- no network calls allowed (but calls to get resources from within your `public/` folder)
-- you must handle any viewport size (by implementing a response to the `resize` event of the `window`)
-- you **cannot use random number generation without a seed** (the same input hash must always yield the same output). The `fxrand` function does a very good job in that regard.
