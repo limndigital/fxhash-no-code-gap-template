@@ -10,7 +10,42 @@ _Please see [License.md](./LICENSE.md "License") for details._
 
 # What is this?
 
-This is the (arguably) simplest boilerplate to implement a Generative Token on [fxhash](https://fxhash.xyz).
+This is the absolute simplest template to create a GAP\* on [fx(hash)](https://fxhash.xyz).
+
+1. Create as many _"Trait Layers"_ as you want.
+2. Create as many _"Trait Images"_ in each Layer as you want.
+3. Change the Title, Artist Name, Layer Count, Trait Count in the `settings.js` file.
+4. Test with a local server _(instructions below)_ to make sure everything works.
+5. ZIP _(compress)_ the entire folder.
+6. Upload the .ZIP file to the **fx(hash) Sandbox** for testing.
+7. Pubilsh your new **GAP** on fx(hash)! _(step-by-step instructions in the Discussions)_
+
+**🔥 NOT A SINGLE LINE OF CODE NEEDED! 🔥**
+
+## What is a GAP?
+
+GAP stands for **Generative Assembly Project** and it's term coined by [@LimnDigital](https://twitter.com/limndigital "@LimnDigital on Twitter") to describe fx(hash) Projects that randomly "**assemble**" layers of images _(traits)_ to form new, random Artworks. This is in technical contrast to _"pure code"_ Generative Tokens that create patterns, shapes, and images.
+
+## Isn't that just a PfP?
+
+A GAP _can_ be a PfP. But it doesn't have to be. The image layers could be hills, trees, and skies that assemble to form a **Landscape GAP**. It could be multiple layers of flowers that assemble to form a **Garden GAP**.
+
+By braodly labeling these templates as just a _PfP_ dramatically limits their use and understanding by Artists who may have little or no programming skills.
+
+# Let's dive in!
+
+## Requirements
+
+- [Visual Studio Code (VSC) FREE](https://code.visualstudio.com/ "VS Code") : The top code editor used by millions of coders and companies world wide.
+- Local HTTP server _(we will add to VSC)_ so you can test your GAP on your computer in real time so you don't have to upload to fx(hash) Sandbox.
+
+## Steps
+
+1. Click the "Code" button above and select "Download ZIP".
+2. You should put this ZIP in a safe place on your computer, like a dedicated Dropbox folder. So if your computer falls off a truck, is stolen, etc., your GAP will always be safe and available in your Dropbox.
+3. Unzip the downloaded ZIP file.
+4. Download and install VSC.
+5.
 
 Before diving into the development of your token, we recommend reading the [Guide to mint a Generative Token](https://fxhash.xyz/articles/guide-mint-generative-token) to get some understanding of the process.
 

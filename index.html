@@ -1,44 +1,85 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>FXHASH project</title>
+    <title>FXHASH NO CODE GAP Template by @LimnDigital</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="Author" content="Shane Robinson as @LimnDigital" />
+    <meta
+      name="License"
+      content="Licensed under Creative Commons Attribution-ShareAlike 4.0 International Public License."
+    />
+    <!--
+      Originally Published February 2022 - Core Code ©2022 Shane Robinson, All Rights Reserved
+      This template available https://github.com/limndigital/fxhash-low-code-gap-template
+      This template licensed under MIT License: https://github.com/limndigital/fxhash-low-code-gap-template/blob/main/LICENSE
+      Core Code: Shane Robinson as LimnDigital, https://twitter.com/limndigital
+      Want help with Your fx(hash) Projects? Follow and DM me on Twitter. ;-)
+      ----- Helpful stuff -----
+      In Live Mode: keyPress to save Artworks:
+      's' or 'S' to save at current canvas size.
+      'f' or 'F' to save at full canvas size.
+      't' or 'T' to save at Twitter Tweet size, 1200 x 1200px.
+    -->
+
     <script id="fxhash-snippet">
       //---- do not edit the following code (you can indent as you wish)
-      let alphabet = "123456789abcdefghijkmnopqrstuvwxyzABCDEFGHJKLMNPQRSTUVWXYZ"
-      var fxhash = "oo" + Array(49).fill(0).map(_=>alphabet[(Math.random()*alphabet.length)|0]).join('')
-      let b58dec = str=>[...str].reduce((p,c)=>p*alphabet.length+alphabet.indexOf(c)|0, 0)
-      let fxhashTrunc = fxhash.slice(2)
-      let regex = new RegExp(".{" + ((fxhash.length/4)|0) + "}", 'g')
-      let hashes = fxhashTrunc.match(regex).map(h => b58dec(h))
+      let alphabet =
+        "123456789abcdefghijkmnopqrstuvwxyzABCDEFGHJKLMNPQRSTUVWXYZ";
+      var fxhash =
+        "oo" +
+        Array(49)
+          .fill(0)
+          .map((_) => alphabet[(Math.random() * alphabet.length) | 0])
+          .join("");
+      let b58dec = (str) =>
+        [...str].reduce(
+          (p, c) => (p * alphabet.length + alphabet.indexOf(c)) | 0,
+          0
+        );
+      let fxhashTrunc = fxhash.slice(2);
+      let regex = new RegExp(".{" + ((fxhash.length / 4) | 0) + "}", "g");
+      let hashes = fxhashTrunc.match(regex).map((h) => b58dec(h));
       let sfc32 = (a, b, c, d) => {
         return () => {
-          a |= 0; b |= 0; c |= 0; d |= 0
-          var t = (a + b | 0) + d | 0
-          d = d + 1 | 0
-          a = b ^ b >>> 9
-          b = c + (c << 3) | 0
-          c = c << 21 | c >>> 11
-          c = c + t | 0
-          return (t >>> 0) / 4294967296
-        }
-      }
-      var fxrand = sfc32(...hashes)
+          a |= 0;
+          b |= 0;
+          c |= 0;
+          d |= 0;
+          var t = (((a + b) | 0) + d) | 0;
+          d = (d + 1) | 0;
+          a = b ^ (b >>> 9);
+          b = (c + (c << 3)) | 0;
+          c = (c << 21) | (c >>> 11);
+          c = (c + t) | 0;
+          return (t >>> 0) / 4294967296;
+        };
+      };
+      var fxrand = sfc32(...hashes);
       // true if preview mode active, false otherwise
       // you can append preview=1 to the URL to simulate preview active
-      var isFxpreview = new URLSearchParams(window.location.search).get('preview') === "1"
+      var isFxpreview =
+        new URLSearchParams(window.location.search).get("preview") === "1";
       // call this method to trigger the preview
       function fxpreview() {
-        console.log("fxhash: TRIGGER PREVIEW")
+        console.log("fxhash: TRIGGER PREVIEW");
       }
       //---- /do not edit the following code
     </script>
 
-    <link rel="stylesheet" href="./style.css">
-
+    <link rel="stylesheet" href="./assets/style.css" />
+    <script src="./assets/p5.min.js"></script>
+    <script src="./settings.js"></script>
     <!-- if you need to import js scripts do it here -->
   </head>
   <body>
-
-    <script src="./index.js"></script>
+    <script src="./assets/index.js"></script>
   </body>
 </html>
