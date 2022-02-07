@@ -42,10 +42,16 @@ By braodly labeling these templates as just a _PfP_ dramatically limits their us
 ## Steps
 
 1. Click the "Code" button above and select "Download ZIP".
+   1. That will download a file named `fxhash-no-code-gap-template-main.zip`
 2. You should put this ZIP in a safe place on your computer, like a dedicated Dropbox folder. So if your computer falls off a truck, is stolen, etc., your GAP will always be safe and available in your Dropbox.
-3. Unzip the downloaded ZIP file.
-4. Download and install VSC.
-5.
+3. Unzip _(double click)_ the `fxhash-no-code-gap-template-main.zip` file.
+   1. It will create a folder `fxhash-no-code-gap-template-main`
+   2. You can rename this folder anything you want...The Title of your GAP would be a good idea to name it.
+4. Download, install, and open VSC.
+5. With VSC open, it will be in your Dock:
+   1. Drag the folder created in step 3 to VSC in your Dock.
+   2. This will open your new GAP in VSC. You always NEED to open the Folder, NOT just a file.
+6. Your VSC sidebar should look like this:
 
 Before diving into the development of your token, we recommend reading the [Guide to mint a Generative Token](https://fxhash.xyz/articles/guide-mint-generative-token) to get some understanding of the process.
 
