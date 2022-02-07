@@ -69,13 +69,13 @@ By broadly labeling these templates as just a _PfP_ dramatically limits their us
    1. Yours will have an _"Install"_ button like all the other extensions. Click Install.
    2. Details about the Live Server extension: https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
 
-![VSC Sidebar](./assets/vsc2.jpg "VSC Sidebar")
+![VSC Extensions](./assets/vsc2.jpg "VSC Extensions")
 
 10 When completed, you should have a "**Go Live**" button in VSC's bottom menu bar on the right.
 
 ![VSC Go Live Server](./assets/vsc3.jpg "VSC Sidebar")
 
-11. Click "**Go Live**" and if you've followed the instructions, your default browser will open to display this demo GAP Artworks:
+1.  Click "**Go Live**" and if you've followed the instructions, your default browser will open to display this demo GAP Artworks:
 
 ![VSC Sidebar](./assets/vsc4.jpg "VSC Sidebar")
 
@@ -87,6 +87,8 @@ By broadly labeling these templates as just a _PfP_ dramatically limits their us
 If you have problems getting your VSC and GAP setup to run correctly, please post an **Issue** on Github in this repo's Issue section: https://github.com/limndigital/fxhash-no-code-gap-template/issues
 
 > This is free software and provided "_AS IS_" and I can't promise speedy support, but I will do my best to help people get their GAPs running at least through this Setup stage.
+
+---
 
 # Customize Your GAP
 
@@ -109,6 +111,8 @@ Now that you have a working GAP, it's time to customize with your own Layers & A
 2. As mentioned above, the most important settings are the `layerCount` and `traitCount` settings. Get those wrong and your GAP will break.
 
 > PRO TIP: If you really mess up, just throw the entire folder away and download a clean new version from the repo and repeat the above steps. It'll go faster this time because you won't have to install and configure VSC!
+
+---
 
 # Testing your GAP on the fx(hash) Sandbox
 
@@ -141,6 +145,14 @@ I've created a _"How To"_ article in the _"Discussion"_ of this repo. It goes th
 https://github.com/limndigital/fxhash-no-code-gap-template/discussions/1
 
 ![How To Publish your GAP](./assets/howto.jpg "How To Publish your GAP")
+
+---
+
+# Lastly...
+
+If this is your first Project on fx(hash) you are not verified and once you publish your project, your project will be locked for 3 hours.
+
+You can find your project [on the "explore locked generators" screen](https://www.fxhash.xyz/explore/locked) with a countdown timer.
 
 ---
 
