@@ -20,6 +20,7 @@ This is the absolute simplest template to create a GAP\* on [fx(hash)](https://f
 
 🔥 <strong>No Node.js needed!</strong> _(Do you know what *Node.js* is? No? Good 'cuase you don't need it!)_  
 🔥 <strong>No Code needed!</strong>  
+🔥 <strong>No Features or Rarity in this version to keep it super simple! _(coming in future versions)_</strong>  
 🔥 <strong>No complex folder or file naming conventions!</strong>  
 🔥 <strong>FavIcons included!</strong>  
 🔥 <strong>Customize your Project Title, Artist Name, and console.log() messages!</strong>  
