@@ -16,16 +16,25 @@ _Please see [License.md](./LICENSE.md "License") for details._
 
 This is the absolute simplest template to create a GAP\* on [fx(hash)](https://fxhash.xyz).
 
+## Features
+
+🔥 <strong>No Node.js needed!</strong> _(Do you know what *Node.js* is? No? Good 'cuase you don't need it!)_  
+🔥 <strong>No Code needed!</strong>  
+🔥 <strong>No complex folder or file naming conventions!</strong>  
+🔥 <strong>FavIcons included!</strong>  
+🔥 <strong>Customize your Project Title, Artist Name, and console.log() messages!</strong>  
+🔥 <strong>Test on your local machine with auto-browser refresh!</strong>
+
+## Easy as 1, 2, 3...
+
 1. Create as many _"Trait Layers"_ as you want.
 2. Create as many _"Trait Images"_ in each Layer as you want.
 3. Change the Title, Artist Name, Layer Count, Trait Count in the `settings.js` file.
-4. Test with a local server _(instructions below)_ to make sure everything works.
+4. Test with a local server _([instructions below](#gap-setup))_ to make sure everything works.
 5. **IMPORTANT:** You can delete the `readme` folder and this `README.md` file to save space in your final ZIP. All the other files and folders you **NEED TO KEEP** for your GAP to work correctly.
 6. ZIP _(compress)_ all the files & folders **INSIDE** the Project folder. _(NOT the Project folder itself)_
 7. Upload the .ZIP file to the **fx(hash) Sandbox** for testing.
-8. Pubilsh your new **GAP** on fx(hash)! _([step-by-step instructions in the Discussions](https://github.com/limndigital/fxhash-no-code-gap-template/discussions/1))_
-
-### 🔥 NOT A SINGLE LINE OF CODE NEEDED! 🔥
+8. Pubilsh your new **GAP** on fx(hash)! _([step-by-step screenshot instructions in the Discussions section above.](https://github.com/limndigital/fxhash-no-code-gap-template/discussions/1))_
 
 ---
 
