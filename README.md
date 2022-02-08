@@ -20,13 +20,14 @@ This is the absolute simplest template to create a GAP\* on [fx(hash)](https://f
 
 🔥 <strong>No Node.js needed!</strong> _(Do you know what *Node.js* is? No? Good 'cuase you don't need it!)_  
 🔥 <strong>No Code needed!</strong>  
+🔥 <strong>But you ARE going to learn how to use a code editor... Wooo Hooo!</strong>  
 🔥 <strong>No Features or Rarity in this version to keep it super simple! _(coming in future versions)_</strong>  
 🔥 <strong>No complex folder or file naming conventions!</strong>  
 🔥 <strong>FavIcons included!</strong>  
 🔥 <strong>Customize your Project Title, Artist Name, and console.log() messages!</strong>  
 🔥 <strong>Test on your local machine with auto-browser refresh!</strong>
 
-## Easy as 1, 2, 3...
+## Easy as 1, 2, 3...8
 
 1. Create as many _"Trait Layers"_ as you want.
 2. Create as many _"Trait Images"_ in each Layer as you want.
